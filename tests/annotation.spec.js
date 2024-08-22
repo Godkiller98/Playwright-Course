@@ -23,3 +23,7 @@ test('slow test', async({page})=> {
   test('skip this test', async ({ page, browserName }) => {
     test.skip(browserName === 'firefox', 'Still working on it');
   });
+
+  test('slow test @smoke', async({page})=> {
+    
+  });
